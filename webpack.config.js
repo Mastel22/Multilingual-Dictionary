@@ -22,7 +22,16 @@ module.exports = {
         {
             test: /\.s?css$/,
             use: ['style-loader', 'css-loader', 'less-loader']
+        },
+        {
+            test: /\.(jpeg|jpg|png)$/,
+            use: {
+                loader: 'url-loader'
+            }
         }
         ]
+    },
+    node: {
+        fs: 'empty'
     }
 };
