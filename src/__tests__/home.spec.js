@@ -22,5 +22,6 @@ describe('Multilingual definition view', () => {
 	};
 	test('Definition of words', async() => {
 		const { getByText }  = render(<HomePage/>);
+		await waitForElement(()=> getByText('FRENCH'));
 	});
 });
