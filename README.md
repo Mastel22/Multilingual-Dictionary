@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Mastel22/Multilingual-Dictionary.svg?branch=develop)](https://travis-ci.org/Mastel22/Multilingual-Dictionary)
+[![Coverage Status](https://coveralls.io/repos/github/Mastel22/Multilingual-Dictionary/badge.svg)](https://coveralls.io/github/Mastel22/Multilingual-Dictionary)
 # Multilingual-Dictionary 
 
 Urban dictionary in French,Spanish and Portigues.
