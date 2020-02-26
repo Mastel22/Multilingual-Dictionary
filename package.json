@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --mode development",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "start": "HTTPS=true serve -s ./dist",
     "format": "prettier --write \"src/**/*.js\"",
     "build": "webpack --mode production",
